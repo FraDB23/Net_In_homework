@@ -1,2 +1,4 @@
 /etc/init.d/networking restart
 /etc/init.d/isc-dhcp-server start
+
+ip add default via 145.97.4.97
