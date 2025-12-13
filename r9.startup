@@ -2,3 +2,5 @@
 /etc/init.d/isc-dhcp-server start
 
 ip add default via 145.97.4.97
+
+iptables -t nat -A POSTROUTING -s 192.168.1.0/24 -j MASQUERADE
